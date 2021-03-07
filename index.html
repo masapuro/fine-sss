@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+	<title>ファインクオリティ ｜ 株式会社ファインクオリティ　大阪</title>
+	<meta name="description" content="@yield('description')" />
+	<meta name="keywords" content="株式会社ファインクオリティ、マンション管理会社　大阪、マンション管理会社　見直し、マンション管理　オーナー、固定費" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Styles -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link href="css/app.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/responsive.css">
+	<link rel="stylesheet" href="./css/animate.css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="./css/humburger.css">
+	<link rel="apple-touch-icon" type="image/png" href="images/favicons/apple-touch-icon-180x180.png">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<link rel="icon" type="image/png" href="images/favicons/icon-192x192.png">
+	<!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<section id="top">
+  	<header class="header">
+		<div class="header-fixed-menu shadow-sm d-flex justify-content-between align-items-stretch bg-white position-fixed w-100">
+			<h1 class="m-3 h6 logo res-header">
+				<a href="" class="text-decoration-none text-primary">
+					<img src="images/fq_logo.png" alt="ファインクオリティロゴ" width="50"><span class="p-1 font-weight-bold font-serif"><img src="images/fq_logo_text@2x.png" alt="FINEQUALITY" class="title-header" width="150"></span>
+				</a>
+			</h1>
+			<div id="wrapper">
+                <span></span>
+                <span></span>
+                <span></span>
+			  </div>
+			  <nav id="humburger">
+			<nav class="justify-content-center nav">
+				<ul class="d-none d-md-flex justify-content-space-lg-around justify-content-between w-100 align-items-stretch list-unstyled my-0 h-100 font-weight-bold">
+					<li class="h-100 d-flex align-items-center right-header"><a href="https://fineq.ai/aboutus" class="p-3">私たちについて</a></li>
+					<li class="h-100 d-flex align-items-center right-header"><a href="https://fineq.ai//description" class="p-3">業務内容</a></li>
+					<li class="h-100 d-flex align-items-center right-header"><a href="https://fineq.ai//howit" class="p-3">ご契約の流れ</a></li>
+					<li class="h-100 d-flex align-items-center right-header"><a href="https://fineq.ai/owner" class="p-3">ファインクオリティのひとりごと</a></li>
+					<li class="h-100 d-flex align-items-center right-header"><a href="https://fineq.ai//company" class="p-3">会社案内</a></li>
+					<li class="h-100 d-flex align-items-center contact-header"><a href="https://fineq.ai//contact" class="alone-work">お問合せ</a></li>
+				</ul>
+				<div class="d-md-none d-flex  mr-3">
+					<dd class="btn ml-auto" data-toggle="modal" data-target="#exampleModal01" aria-controls="exampleModal01" aria-expanded="false" aria-label="Modal navigation" role="button">
+					</dd>
+				</div>
+			</nav>
+		</nav>
+		</div>
+		<!-- コンテント1 -->
+		<div class="slick01 slick-slider">
+		<div>
+    	<div class="header-content mt-4 mb-10">
+    		<div class="header-content-area ml-5 pt-10">
+        		<h2 class="wow pl-10 res-header-content">マンションオーナー様の新しい支え<br>
+          			ファインクオリティは安心を提供します
+        		</h2>
+      		</div>
+      		<div class="owner">
+      			<div class="owner-box pl-10 py-4 pr-4 ml-5">
+			        <h3 class="p-2 ml-3 mb-0 ani-header1 sample">オーナー様へ</h3>
+			        <h3 class="p-2 ml-5 ani-header2 sample2">入居者満足度の確保と経費削減</h3>
+			        <div class="owner-content py-4 pr-4 ml-5 w-75">
+				        <div class="owner-content-child pr-5 ">
+			    	    	<p class="wow animate__fadeInUp pr-5 owner-res">入居者様に快適な日常生活を送って頂くことで、入居率・入居の<br>継続・入居者の質が確保できます。それは経費節減となり、オー<br>ナー様の収益確保、資産価値の維持となります。</p>
+		        		</div>
+			        	<video src="./images/3D_city_1.91-2.mp4" loop autoplay muted></video>
+		        	</div>
+			   		<div class="button-a ml-3">
+						<a href="https://fineq.ai/aboutus" class="wow animate__fadeInUp-3 p-2">私たちについて</a>
+					</div> 	
+			    </div>
+			</div>
+			</div>
+    	</div>
+		<div>
+    	<div class="header-content mt-4 mb-10 header2">
+    		<div class="header-content-area ml-5 pt-10">
+        		<h2 class="pl-10 res-header-content">マンションオーナー様の新しい支え<br>
+          			ファインクオリティは安心を提供します
+        		</h2>
+      		</div>
+      		<div class="owner">
+      			<div class="owner-box pl-10 py-4 pr-4 ml-5">
+			        <h3 class="p-2 ml-3 mb-0 samplex">オーナー様へ</h3>
+			        <h3 class="p-2 ml-5 sampley">入居者満足度の確保と経費削減</h3>
+			        <div class="owner-content py-4 pr-4 ml-5 w-75">
+				        <div class="owner-content-child pr-5">
+			    	    	<p class="pr-5 owner-res">入居者様に快適な日常生活を送って頂くことで、入居率・入居の<br>継続・入居者の質が確保できます。それは経費節減となり、オー<br>ナー様の収益確保、資産価値の維持となります。</p>
+		        		</div>
+		        	</div>
+			   		<div class="button-a ml-3">
+						<a href="https://fineq.ai/aboutus" class="p-2">私たちについて</a>
+					</div> 	
+			    </div>
+			</div>
+			</div>
+    	</div>
+		<div>
+    	<div class="header-content mt-4 mb-10 header3">
+    		<div class="header-content-area ml-5 pt-10">
+        		<h2 class="pl-10 res-header-content">マンションオーナー様の新しい支え<br>
+          			ファインクオリティは安心を提供します
+        		</h2>
+      		</div>
+      		<div class="owner">
+      			<div class="owner-box pl-10 py-4 pr-4 ml-5">
+			        <h3 class="p-2 ml-3 mb-0 samplex">管理会社様へ</h3>
+			        <h3 class="p-2 ml-5 sampley">管理会社の負担を管理会社の負担を軽減します</h3>
+			        <div class="owner-content py-4 pr-4 ml-5 w-75">
+				        <div class="owner-content-child pr-5">
+							<p class="pr-5 owner-res">「顔が見える業者」を目指し、いち早く対応する事で入居者様か<br>らのクレームを減らします。そして、オーナー様の収益確保をサ<br>ポートする管理会社の役割を代行し、管理会社様のお手伝いを致<br>します。
+							</p>
+		        		</div>
+		        	</div>
+			   		<div class="button-a ml-3">
+						<a href="https://fineq.ai/aboutus" class="p-2">私たちについて</a>
+					</div> 	
+			    </div>
+			</div>
+			</div>
+    	</div>
+		<div>
+    	<div class="header-content mt-4 mb-10 header4">
+    		<div class="header-content-area ml-5 pt-10">
+        		<h2 class="pl-10 res-header-content">マンションオーナー様の新しい支え<br>
+          			ファインクオリティは安心を提供します
+        		</h2>
+      		</div>
+      		<div class="owner">
+      			<div class="owner-box pl-10 py-4 pr-4 ml-5">
+			        <h3 class="p-2 ml-3 mb-0 samplex">オーナー様へ</h3>
+			        <h3 class="p-2 ml-5 sampley">入居者満足度の確保と経費削減</h3>
+			        <div class="owner-content py-4 pr-4 ml-5 w-75">
+				        <div class="owner-content-child pr-5">
+			    	    	<p class="pr-5 owner-res">入居者様に快適な日常生活を送って頂くことで、入居率・入居の<br>継続・入居者の質が確保できます。それは経費節減となり、オー<br>ナー様の収益確保、資産価値の維持となります。</p>
+		        		</div>
+		        	</div>
+			   		<div class="button-a ml-3">
+						<a href="https://fineq.ai/aboutus" class="p-2">私たちについて</a>
+					</div> 	
+			    </div>
+			</div>
+			</div>
+    	</div>
+		</div>
+    </header>
+</section>
+    <section class="building p-p-5">
+       	<p class="pl-10 sample3">
+			   <p class="wow animate__fadeInUp">管理費は固定費ではありません</p>
+		       <p class="wow animate__fadeInUp">マンションオーナー様へ新しい提案</p>
+			   <p class="wow animate__fadeInUp">マンションにかかる修繕費用は</p>
+			   <p class="wow animate__fadeInUp">かかった費用のみ</p>
+			   <p class="wow animate__fadeInUp">マンション経営に安心を</p>
+		</p>
+	  </section>
+	  <!-- サービスのご案内 -->
+  	<section class="service mt-3">
+  		<div class="container">
+		    <p class="font-ch">サービスのご案内</p>
+		    <h2 class="font-ch">SERVICE</h2>
+		    <div class="plans">
+		    <div class="bg-image1">
+				<video src="./images/Pixta 36818258_comp.mp4" loop autoplay muted></video>
+		    	</div>
+		    	<div class="row row-service">
+					    <div class="col-5">
+					    	<div class="strongs">
+						    	<div class="text-area text-area-res1">
+							    	<h3><span class="plans-letter1">3</span><span class="plans-letter2">つ</span>の強みで<br>
+							        	安心をお約束します</h3>
+							    </div>
+						    </div>
+					    </div>
+					    <div class="col-7 plan-sug res-plan">
+					    	<h3 class="wow animate__fadeInUp fine-qua run">ファインクオリティが</h3>
+					    	<h3 class="wow animate__fadeInUp ml-5 fine-plan">今までにない新しいプランをご提案</h3>
+					    	<p class="wow animate__fadeInUp">固定費の掛からないオーナー様の代行</p>
+					    	<dd class="wow animate__fadeInUp">オーナー様のゆとりある日常を創り出すお手伝い</dd>
+				      		<div class="owner-plan"><a href="" class="wow animate__fadeInUp p-2">オーナーズプラン</a></div>
+				      	</div>
+			    </div>
+		      	<div class="plan-content">
+		      		<div class="row">
+			        	<ul class="plan-ul">
+			        		<li>
+			        			<div class="li-number"><p>1</p>
+			        			</div>
+					        	<div class="li-text">
+				          			<h4>ランニングフリー</h4>
+				          			<p class="wow animate__fadeInUp">費用はトラブル対応が<br>
+				            		発生した場合のみ<br>
+				            	無駄な経費はいりません</p>
+				            	</div>
+			    	    	</li>
+			    	    	<li>
+			        			<div class="li-number"><p>2</p>
+			        			</div>
+					        	<div class="li-text li-text-2">
+					          		<h4>マンション
+										<br>コンシェルジュ
+									  </h4>
+					          		<p class="wow animate__fadeInUp">オーナー様に代わって<br>
+					            	入居者様の対応をし<br>
+					            	随時報告させて頂きます</p>
+					            </div>
+					        </li>
+					        <li>
+			        			<div class="li-number"><p>3</p>
+			        			</div>
+					        	<div class="li-text">
+						          <h4>プロフェッショナル</h4>
+						          <p class="wow animate__fadeInUp">配管設備を熟知した<br>
+						            責任あるスタッフが<br>
+						            信頼を安心をお届けいたします</p>
+		        				</div>
+			        		</li>
+			        	</ul>
+			        </div>    
+		      	</div>
+	    	</div>
+    	</div>
+	  </section>
+	  <!-- 導入メリット -->
+  	<section class="merit mt-3">
+  		<div class="container merit-container">
+  			<div class="row">
+  				<div class="col-md-4 merit-right">
+				    <p class="font-ch">導入メリット</p>
+				    <h2 class="font-ch">MERIT</h2>
+				</div>
+			    <div class="col-md-8 merit-left">
+			      <div class="merit1">
+			      	<div class="merit-top-img1">
+			      		<img src="images/img_bg-merit1.png">
+			      	</div>
+			        <div class="merit-top-img2">
+			        	<div class="merit-top-text">
+				          <p>オーナーズプランを導入頂いた</p>
+				          <p>オーナー様のメリット</p>
+				        </div>
+			        </div>
+			      </div>
+			    </div>
+			</div>
+			<div class="row row-before row-before-merit"> 
+		      <div class="col-5 merit-before">
+		        <div class="before-top">
+		          <span class="wow animate__fadeInUp">before</span>
+		          <p class="wow animate__fadeInUp">今まで</p>
+		        </div>
+		        <div class="wow animate__fadeInUp before-text ">
+		        	<p class="wow animate__fadeInUp">管理費で固定されている…<br>毎月決まった管理費を負担し続けている…</p>
+		        </div>
+		        <div class="wow animate__fadeInUp before-text ">
+		        	<p class="wow animate__fadeInUp">業者の手配に時間がかかる<br>入居者→管理会社→業者</p>
+		        </div>
+		      </div>
+		      <div class="col-1 merit-after marit-after-cen ">
+		      </div>
+		      <div class="col-6 merit-after res-after ">
+		        <div class="after-top">
+		          <span class="wow animate__fadeInUp">after</span>
+		          <p class="wow animate__fadeInUp">導入後</p>
+		        </div>
+		        <div class="wow animate__fadeInUp after-text after-text1 ">
+		        	<p class="wow animate__fadeInUp">毎月の固定費はいらない<br>トラブル対応時は掛かった費用のみ</p>
+		        	<img src="images/img_merit-after.png">
+		        </div>
+		        <div class="wow animate__fadeInUp after-text after-text2">
+		        	<p class="wow animate__fadeInUp">ファインクオリティが直接ご対応<br>その場で完了することも</p>
+		        	<img src="images/img_merit-after.png">
+		        </div>
+		      </div>
+		    </div>
+			<div class="row merit-text">
+				<p class="mx-auto my-5">すべて任せることができるので<span>ゆとり</span>が生まれます</p>   
+			</div>
+	    </div>
+  	</section>
+  	<section class="mt-3">
+  		<div class="container merit-bottom merit-bottom-mete ">
+		    <div class="merit-border">
+		    	<div class="bg-image2">
+					<video src="./images/Pixta 53737982_comp.mp4" loop autoplay muted></video>
+		    	</div>
+		    	<div class="row row-service">
+					    <div class="col-md-7 col-12 row-service-mete">
+							<h3 class="mente-contents">メンテナンスはお任せください</h3>
+							<div class="mente-contnt">
+					    	<p>設備トラブル</p>
+					    	<p>メンテナンス</p>
+					    	<p>設備工事・管工事</p>
+							<p>内装工事</p>
+						</div>
+							  <a href="#top" class="mente-work">すべての業務</a>
+				      	</div>
+					    <div class="col-md-5 col-12">
+					    	<div class="strongs">
+						    	<div class="text-area text-area-mente">
+							    	<h3>大切な資産を守るため<br>
+							        	資産価値を下げないための<br>
+							        	サポートを致します。</h3>
+							    </div>
+						    </div>
+					    </div>
+			    </div>
+	    	</div>
+    	</div>
+	  </section>
+	  <!-- 私たちについて -->
+  	<section class="about mt-3">
+	  	<div class="container container-about">
+			<div class="about-all">
+			<div class="about-text">
+		    <dd class="font-ch font-we">私たちについて</dd>
+			<h2 class="font-ch">ABOUT</h2>
+		      <p>オーナー様と入居者様とを結ぶ絆 <br><span>「ひとつのリング」でありたい。</span></p>
+		      <p>ファインクオリティは信頼の絆を <br><span>結びつけるお手伝いをしたいと考えています。</span></p>
+			</div>
+			<a href="#top" class="about-work">私たちについて</a>
+			<div class="bg-image3">
+				<img>
+			</div>
+		</div>
+		</div>
+	</section>
+	<section class="alone">
+		<div class="alone-container">
+	    <div class="alone-top">
+	    	<p>ファインクオリティのひとりごと</p>
+	    	<a href="#top" class="alone-work">一覧へ</a>
+	  	</div>
+	  	<div class="alone-contents">
+	    	<div class="alone-box">
+	      		<p>有馬離宮でのひととき</p>
+				  <img src="./images/image 7.png" width="200px" height="150px" alt="">
+		      	<dd>このたび新しいホームページを立ち上げることが出来ました。いろいろとアドバイスを頂いたお客様も…</dd>
+	    	</div>
+		  </div>
+		</div>
+  	</section>
+  	<section class="contact">
+		  <div class="container-about contact-about">
+	  	<div class="contact-top">  
+			<h4>お見積もり・お問い合わせ</h4>
+			<hr>
+	  	</div>
+	  	<div class="contact-bottom">
+	    	<p>「資料請求」「サービスに関するご質問」など<br>
+			  ぜひお気軽にお問い合わせください</p>
+			  <div class="tele-contact">
+			  <img src="./images/電話発信中のフリーアイコン 1.svg" alt="電話アイコン">
+			<p>06-6335-7496</p>
+		</div>
+	    	<div class="form">
+				<div class="contanct-mail">
+					<img src="./images/Vector.svg" alt="メールアイコン">
+				  <a href="#top">お問い合わせフォームへ</a>
+				</div>
+				<div class="contact-line">
+					<img src="./images/LINE_APP 2.svg" alt="ラインアイコン">
+				  <a href="#top">お問い合わせフォームへ</a>
+				</div>
+	    	</div>
+		  </div>
+		</div>
+	</section>
+  	<footer>
+	    <img src="./images/image 4.svg" alt="会社のアイコン" class="footer-icon">
+	    <div class="hunbur">
+	      <a href="#top">TOP</a>
+	      <a href="#top">私たちについて</a>
+	      <a href="#top">業務内容</a>
+	      <a href="#top">オーナーズプラン</a>
+	      <a href="#top">ひとりごと</a>
+	      <a href="#top">会社案内</a>
+	    </div>
+	    <ul class="icon-sns">
+	      <li><img src="./images/image 6.svg" alt="インスタアイコン">Instagram</li>
+	      <li><img src="./images/LINE_APP 1.svg" alt="ラインアイコン">LINE</li>
+		</ul>
+		<div class="tyosaku">
+	    <p>プライバシーポリシー</p>
+		<p>©FINEQUALITY Inc. All Rights Reserved.</p>
+	</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="./js/index.js"></script>
+	<script src="./js/wowjs/dist/wow.min.js"></script>
+      <script>new WOW().init();</script>
+</body>
+</html>

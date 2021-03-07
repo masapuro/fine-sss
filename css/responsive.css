@@ -1,0 +1,934 @@
+@media (min-width: 0px) and (max-width: 560px) {
+    html {
+        font-size: 32%!important;
+        overflow-x: hidden!important;            
+    }
+    .position-fixed {
+        position: static!important;
+    }
+
+    .ani-header1 {
+  overflow: hidden;
+  position: relative;
+}
+.sample {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  height: auto;
+  width: 120px!important;
+  height: 18px!important;
+}
+.ani-header1.sample-animation {
+  animation: ani-header1 2s cubic-bezier(.4, 0, .2, 1);
+}
+
+.sample-second.sample-animation:before {
+  animation: ani-header1 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@keyframes ani-header1 {
+  0% {
+    opacity: 0;
+    width: 0;
+    font-size: 0;
+    background-color: #fff;
+    height: 52px;
+  }
+}
+
+@keyframes ani-header1-before {
+  100% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+}
+/* ここまで */
+/* ani-headerのアニメーション */
+.ani-header2 {
+  overflow: hidden;
+  position: relative;
+}
+.sample2 {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  height: auto;
+  width: 624px;
+  height: 52px;
+}
+
+.ani-header2.sample-animation {
+  animation: ani-header2 2s cubic-bezier(.4, 0, .2, 1);
+}
+
+.sample-second.sample-animation:before {
+  animation: ani-header2 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@keyframes ani-header2 {
+  0% {
+    opacity: 0;
+    font-size: 0;
+    width: 0;
+    height: 52px;
+  }
+}
+
+@keyframes ani-header2-before {
+  100% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+}
+    
+
+.header-fixed-menu {
+    width: 100%!important;
+}
+
+    .ani-header1 {
+        width: 120px!important;
+    }
+    .ani-header2 {
+        width: 240px!important;
+        height: 18px!important;
+    }
+    .samplex {
+        width: 120px!important;
+        height: 18px!important;
+    }
+    .sampley {
+        width: 240px!important;
+        height: 18px!important;
+    }
+    .header-content {
+        height: 356px!important;
+        margin-bottom: 0!important;
+    }
+    .owner {
+        width: 64%!important;
+        top: 152px!important;
+    }
+    .res-header-content {
+        position: relative;
+    top: 34px;
+    }
+    .owner > .ml-5 {
+        margin: 24px 0 0 0!important;
+        padding: 0!important;
+    } 
+    .owner-res {
+        font-size: 4px!important;
+        width: 168px!important;
+    }
+    .owner video {
+        width: 180px!important;
+        height: 96px!important;
+        position: relative!important;
+        right: 14%!important;
+        top: 2%!important;
+    }
+    .owner-content-child {
+        width: 200px;
+    }
+    .button-a {
+    bottom: 26%!important;
+    left: 8%!important;
+    }
+    .button-a a{
+        height: 24px!important;
+        width: 18rem!important;
+        border-radius: 2px!important;
+    }
+    .building {
+        height: 216px!important;
+    }
+    /* サービス */
+    .bg-image1 {
+        height: 140px!important;
+    }
+    .bg-image1 >video {
+        width: 216px;
+        position: absolute;
+    left: -22px;
+    }
+    .text-area-res1 h3{
+        position: relative!important;
+    top: 142px!important;
+    width: 106px;
+    }
+    .res-plan {
+    position: relative!important;
+    top: 128px!important;
+    right: 12px!important;
+    }
+    .res-plan p {
+        width: 250px;
+        padding-right: 48px;
+    }
+    .fine-plan {
+        width: 200px;
+        padding-bottom: 24px;
+    }
+    .res-plan dd {
+        width: 250px;
+        padding-right: 24px;
+    }
+    .plan-sug div a {
+        width: 18rem!important;
+        height: 24px!important;
+        right: 42px!important;
+        top: 112px!important;
+    }
+    .plan-ul li {
+        width: 88%!important;
+        height: 200px;
+    }
+    .li-text {
+        text-align: center;
+    }
+   .li-text-2 {
+       top: -32px!important;
+   }
+   .plans {
+       height: 674px!important;
+   }
+
+   /* メリット */
+   .merit-container {
+       padding-top: 32px!important;
+   }
+   .merit-top-img1 {
+    width: 64%!important;
+   }
+   .merit-top-img2 {
+       width: 50%!important;
+       height: 82px!important;
+       left: 56px!important;
+    top: 24px!important;
+   }
+   .merit1 {
+       height: 0!important;
+   }
+   .merit-before {
+       display: contents!important;
+   }
+   .before-top ,.container-about{
+       padding-top: 32px!important;
+   }
+   .marit-after-cen {
+       transform: rotate(90deg);
+       border-top: 196px solid transparent!important;
+    border-bottom: 196px solid transparent!important;
+    border-left: 48px solid #F0F0F0!important;
+    top: -174px!important;
+    left: 0px!important;
+   }
+   .merit-after {
+    max-width: 100%!important;
+   }
+   .row-before-merit > .col-6{
+    flex: 0 0 100%!important;
+    bottom: 348px;
+   }
+   .after-text {
+       margin: 8px!important;
+   }
+   .row-before-merit {
+       height: 416px;
+   }
+   /* メンテナンス */
+   .bg-image2 {
+       width: 200px!important;
+       height: 140px!important;
+       position: relative!important;
+       top: -34px!important;
+       right: -156px!important;
+   }
+   .bg-image2 > video {
+     width: 200px!important;
+     height: 140px!important;
+   }
+   .row-service {
+    position: relative;
+    bottom: 124px;
+   }
+   .mente-contnt {
+       width: 40%!important;
+   }
+
+.mente-contnt p {
+    height: 12px!important;
+}
+   .mente-work , .about-work{
+       width: 16rem!important;
+       height: 24px!important;
+       line-height: 24px!important;
+       border-radius: 1px!important;
+   }
+   .text-area-mente h3 {
+    position: relative!important;
+    left: 86%!important;
+    top: -86px!important;
+
+   }
+   .merit-border {
+       height: 196px!important;
+   }
+   /* アバウト */
+   .bg-image3 {
+       height: 196px!important;
+       left: 19.8%!important;
+   } 
+   .alone-work {
+    margin-bottom: 6px;
+       width: 96px!important;
+       height: 32px!important;
+       line-height: 32px!important;
+   }
+   .alone-box {
+       height: 256px!important;
+   }
+   .alone-box img{
+       width: 90px!important;
+       height: 56px!important;
+   }
+   .alone-box dd {
+       width: 90px!important;
+   }
+   /* コンタクト */
+   .contact-top {
+       height: 64px!important;
+   }
+   .contact-top h4 {
+       padding-top: 26px!important;
+   }
+   .contact-bottom {
+    height: 96px!important;
+    padding-top: 16px!important;
+   }
+   .form {
+       margin-top: 16px!important;
+   }
+   .contanct-mail , .contact-line{
+    width: 160px!important;
+    height: 48px!important;
+   }
+   /* フッター */
+   footer {
+       padding: 16px 0 24px 0!important;
+   }
+   .footer-icon {
+       width: 104px;
+   }
+   .hunbur a {
+       margin: 4px 24px!important;
+   }
+   .icon-sns {
+       padding-top: 16px!important;
+   }
+}
+
+@media (min-width: 561px) and (max-width: 768px) {
+    html {
+        font-size: 64%!important;
+        overflow-x: hidden!important;            
+    }
+    /* ヘッダー */
+    .title-header {
+        width: 120px!important;
+    }
+    .position-fixed {
+        position: static!important;
+    }
+    nav#humburger li {
+        margin-right: 0!important;
+        position: relative!important;
+    right: 4px!important;
+    }
+    .mt-4, .my-4 {
+        margin-top: 0!important;
+    }
+    html {
+        font-size: 64%!important;
+        overflow-x: hidden!important;            
+    }
+    /* ヘッダー */
+
+
+    .sampley{
+        width: 400px!important;
+        height: 32px!important;
+    }
+    .samplex {
+        width: 216px!important;
+        height: 32px!important;
+    }
+    .title-header {
+        width: 120px!important;
+    }
+    .position-fixed {
+        position: static!important;
+    }
+    nav#humburger li {
+        margin-right: 0!important;
+        position: relative!important;
+    right: 4px!important;
+    }
+    .mt-4, .my-4 {
+        margin-top: 0!important;
+    }
+
+    .ani-header1 {
+        width: 216px!important;
+    }
+    .ani-header2 {
+        width: 400px!important;
+    height: 32px!important;
+    }
+    .header-content {
+        height: 356px!important;
+        margin-bottom: 0!important;
+    }
+    .owner {
+        width: 64%!important;
+        top: 128px!important;
+    }
+    .res-header-content {
+        position: relative;
+        bottom: 56px;
+    }
+    .owner > .ml-5 {
+        margin: 24px 0 0 0!important;
+        padding: 0!important;
+    } 
+    .owner-res {
+        font-size: 4px!important;
+        width: 348px!important;
+    }
+    .owner video {
+        width: 180px!important;
+        height: 96px!important;
+        position: relative!important;
+        left: 54%!important;
+    }
+    .owner-content-child {
+        width: 200px;
+    }
+    .button-a {
+    bottom: 32%!important;
+    left: 8%!important;
+    }
+    .button-a a{
+    height: 30px!important;
+    width: 14rem!important;
+    border-radius: 2px!important;
+    font-size: 1.2rem!important;
+    }
+    .building {
+        height: 314px!important;
+    }
+    /* サービス */
+    .bg-image1 {
+        height: 256px!important;
+    }
+    .bg-image1 >video {
+        width: 356px;
+        position: absolute;
+    left: -22px;
+    }
+    .text-area-res1{
+        position: relative!important;
+        bottom: -234px!important;
+        left: 0%!important;
+    }
+    
+    .res-plan {
+    position: relative!important;
+    top: 204px!important;
+    right: 12px!important;
+    }
+    .res-plan p {
+        width: 462px;
+    padding-right: 62px;
+    }
+    .fine-plan {
+        width: 392px;
+        padding-bottom: 8px;
+    }
+    .res-plan dd {
+        width: 500px;
+    padding-left: 32px;
+    }
+    .plan-sug div a {
+        width: 14rem!important;
+        height: 30px!important;
+        right: 116px!important;
+        top: 156px!important;
+    }
+    .plan-ul {
+        padding-top: 128px;
+        padding-left: 20;
+    }
+    .plan-ul li {
+        width: 30%!important;
+        height: 200px;
+    }
+    .li-text {
+        right: 24%!important;
+        bottom: 42%!important;
+    }
+   .li-text-2 {
+       top: -48px!important;
+   }
+   .plans {
+    height: 416px!important;
+   }
+
+   /* メリット */
+   .merit-right , .merit-left {
+    height: 196px;
+   }
+   .merit-container {
+    padding-top: 56px!important;
+   }
+   .merit-top-img2 {
+    height: 274.5px!important;
+   }
+   .merit-top-text {
+    position: relative!important;
+    bottom: 24%!important;
+    left: 6%!important;
+   }
+   .merit-before {
+    max-width: 36%!important;
+}
+.row-before {
+    padding-top: 0!important;
+}
+.marit-after-cen {
+    border-top: 196px solid transparent!important;
+    border-bottom: 196px solid transparent!important;
+    border-left: 48px solid #F0F0F0!important;
+}
+   /* メンテナンス */
+.merit-border {
+    margin-top: 0!important;
+}
+   .bg-image2 {
+    width: 350px!important;
+    height: 209px!important;
+    position: relative!important;
+    top: -34px!important;
+    left: 54%;
+   }
+   .bg-image2 > video {
+     width: 346px!important;
+     height: 188px!important;
+   }
+   .row-service {
+    position: relative;
+    bottom: 196px;
+   }
+   .mente-contnt {
+       width: 40%!important;
+   }
+
+.mente-contnt p {
+    height: 12px!important;
+}
+   .mente-work , .about-work{
+    width: 136px!important;
+    height: 28px!important;
+    line-height: 28px!important;
+    border-radius: 1px!important;
+}
+.text-area-mente {
+    position: relative!important;
+    bottom: -40px!important;
+    left: -42%!important;
+}
+.merit-border {
+       height: 240px!important;
+   }
+   .mente-contents {
+       width: 100%!important;
+   }
+   .mente-contnt {
+    margin: 10% 0 0 12%!important;
+}
+.container-about {
+    padding-top: 60px!important;
+}
+   /* アバウト */
+   .bg-image3 {
+    height: 356px!important;
+       left: 25.6%!important;
+   } 
+   .alone-work {
+    margin-bottom: 6px;
+       width: 96px!important;
+       height: 32px!important;
+       line-height: 32px!important;
+   }
+   .alone-box {
+       width: 172px!important;
+       height: 216px!important;
+       padding: 20px 25px 20px 25px!important;
+   }
+   .alone-box img{
+    width: 112px!important;
+    height: 72px!important;
+   }
+    .alone-box dd {
+        width: 120px!important;
+        margin: 8px 0!important;
+    }
+   /* コンタクト */
+   .contact-top {
+       height: 96px!important;
+   }
+   .contact-top h4 {
+       padding-top: 38px!important;
+   }
+   .contact-bottom {
+    height: 96px!important;
+    padding-top: 16px!important;
+   }
+   .form {
+       margin-top: 16px!important;
+   }
+   .contanct-mail , .contact-line{
+    width: 160px!important;
+    height: 48px!important;
+   }
+   /* フッター */
+   footer {
+       padding: 16px 0 24px 0!important;
+   }
+   .footer-icon {
+       width: 104px;
+   }
+   .hunbur a {
+       margin: 4px 24px!important;
+   }
+   .icon-sns {
+       padding-top: 16px!important;
+   }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    html {
+        font-size: 76%!important;
+        overflow-x: hidden!important;            
+    }
+    /* ヘッダー */
+    .title-header {
+        width: 120px!important;
+    }
+    .position-fixed {
+        position: static!important;
+    }
+    nav#humburger li {
+        margin-right: 0!important;
+        position: relative!important;
+    right: 4px!important;
+    }
+    .mt-4, .my-4 {
+        margin-top: 0!important;
+    }
+    html {
+        font-size: 64%!important;
+        overflow-x: hidden!important;            
+    }
+    /* ヘッダー */
+    .title-header {
+        width: 120px!important;
+    }
+    .position-fixed {
+        position: static!important;
+    }
+    nav#humburger li {
+        margin-right: 12px!important;
+        position: relative!important;
+        right: 12px!important;
+    }
+    .mt-4, .my-4 {
+        margin-top: 0!important;
+    }
+    .samplex {
+        width: 226px!important;
+        height: 30px!important;
+    }
+    .sampley {
+        width: 400px!important;
+        height: 30px!important;
+    }
+    .ani-header1 {
+        width: 216px!important;
+    }
+    .ani-header2 {
+        width: 400px!important;
+    height: 32px!important;
+    }
+    .header-content {
+        height: 356px!important;
+        margin-bottom: 0!important;
+    }
+    .owner {
+        width: 64%!important;
+        top: 128px!important;
+        padding-left: 40px!important;
+    }
+    .res-header-content {
+        position: relative;
+        bottom: 56px;
+    }
+    .owner > .ml-5 {
+        margin: 24px 0 0 0!important;
+        padding: 0!important;
+    } 
+    .owner-res {
+        font-size: 4px!important;
+        width: 348px!important;
+    }
+    .owner video {
+        width: 240px!important;
+        height: 120px!important;
+        position: relative!important;
+        bottom: 11%!important;
+        left: 70%!important;
+    }
+    .owner-content-child {
+        width: 200px;
+    }
+    .button-a {
+    bottom: 32%!important;
+    left: 8%!important;
+    }
+    .button-a a{
+    height: 30px!important;
+    width: 14rem!important;
+    border-radius: 2px!important;
+    font-size: 1.2rem!important;
+    }
+    .building {
+        height: 314px!important;
+    }
+    /* サービス */
+    .bg-image1 {
+        height: 256px!important;
+    }
+    .bg-image1 >video {
+        width: 356px;
+        position: absolute;
+    left: -22px;
+    }
+    .text-area-res1{
+        position: relative!important;
+        bottom: -234px!important;
+        left: 0%!important;
+    }
+    
+    .res-plan {
+    position: relative!important;
+    top: 204px!important;
+    right: 12px!important;
+    }
+    .res-plan p {
+        width: 462px;
+    padding-right: 62px;
+    }
+    .fine-plan {
+        width: 392px;
+        padding-bottom: 8px;
+    }
+    .res-plan dd {
+        width: 500px;
+    padding-left: 32px;
+    }
+    .plan-sug div a {
+        width: 14rem!important;
+        height: 30px!important;
+        right: 116px!important;
+        top: 156px!important;
+    }
+    .plan-ul {
+        padding-top: 128px;
+        padding-left: 20;
+    }
+    .plan-ul li {
+        width: 30%!important;
+        height: 200px;
+    }
+    .li-text {
+        right: 24%!important;
+        bottom: 42%!important;
+    }
+   .li-text-2 {
+       top: -48px!important;
+   }
+   .plans {
+    height: 416px!important;
+   }
+
+   /* メリット */
+   .merit-right , .merit-left {
+    height: 196px;
+   }
+   .merit-container {
+    padding-top: 56px!important;
+   }
+   .merit-top-img2 {
+    height: 274.5px!important;
+   }
+   .merit-top-text {
+    position: relative!important;
+    bottom: 24%!important;
+    left: 6%!important;
+   }
+   .merit-before {
+    max-width: 36%!important;
+}
+.row-before {
+    padding-top: 0!important;
+}
+.marit-after-cen {
+    border-top: 196px solid transparent!important;
+    border-bottom: 196px solid transparent!important;
+    border-left: 48px solid #F0F0F0!important;
+}
+   /* メンテナンス */
+.merit-border {
+    margin-top: 0!important;
+}
+   .bg-image2 {
+    width: 350px!important;
+    height: 209px!important;
+    position: relative!important;
+    top: -34px!important;
+    left: 48%;
+   }
+   .bg-image2 > video {
+    width: 562px!important;
+    height: 272px!important;
+   }
+   .row-service {
+    position: relative;
+    bottom: 196px;
+   }
+   .mente-contnt {
+       width: 40%!important;
+   }
+
+.mente-contnt p {
+    height: 18px!important;
+    font-size: 1.5rem!important;
+}
+   .mente-work , .about-work{
+    width: 136px!important;
+    height: 28px!important;
+    line-height: 28px!important;
+    border-radius: 1px!important;
+}
+.text-area-mente {
+    margin: 18px 1px 0px 154px!important;
+}
+.merit-border {
+       height: 336px!important;
+   }
+   .mente-contents {
+       width: 100%!important;
+   }
+   .mente-contnt {
+    margin: 10% 0 0 12%!important;
+}
+.container-about {
+    padding-top: 60px!important;
+}
+   /* アバウト */
+   .bg-image3 {
+    height: 356px!important;
+       left: 25.6%!important;
+   } 
+   .alone-work {
+    margin-bottom: 6px;
+       width: 96px!important;
+       height: 32px!important;
+       line-height: 32px!important;
+   }
+   .alone-box {
+       width: 172px!important;
+       height: 216px!important;
+       padding: 20px 25px 20px 25px!important;
+   }
+   .alone-box img{
+    width: 112px!important;
+    height: 72px!important;
+   }
+    .alone-box dd {
+        width: 120px!important;
+        margin: 8px 0!important;
+    }
+   /* コンタクト */
+   .contact-top {
+       height: 96px!important;
+   }
+   .contact-top h4 {
+       padding-top: 38px!important;
+   }
+   .contact-bottom {
+    height: 96px!important;
+    padding-top: 16px!important;
+   }
+   .form {
+       margin-top: 16px!important;
+   }
+   .contanct-mail , .contact-line{
+    width: 160px!important;
+    height: 48px!important;
+   }
+   /* フッター */
+   footer {
+       padding: 16px 0 24px 0!important;
+   }
+   .footer-icon {
+       width: 104px;
+   }
+   .hunbur a {
+       margin: 4px 24px!important;
+   }
+   .icon-sns {
+       padding-top: 16px!important;
+   }
+
+}
+
+
+
+
+
+
+
+
